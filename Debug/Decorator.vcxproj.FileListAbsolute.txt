@@ -1,2 +1,0 @@
-C:\Users\Administrator\source\repos\Decorator\Debug\Decorator.exe
-C:\Users\Administrator\source\repos\Decorator\Debug\Decorator.pdb
