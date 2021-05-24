@@ -4,7 +4,7 @@
 class FriedEgg : public BreadDecorator
 {
 public:
-	FriedEgg(Bread& decorator) : BreadDecorator(decorator){}
+	FriedEgg(Bread* decorator) : BreadDecorator(decorator){}
 
 	string getDiscription();
 	int getCost();

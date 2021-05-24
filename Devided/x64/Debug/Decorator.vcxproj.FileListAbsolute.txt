@@ -1,0 +1,2 @@
+C:\Users\Administrator\source\repos\Decorator\Devided\x64\Debug\Decorator.exe
+C:\Users\Administrator\source\repos\Decorator\Devided\x64\Debug\Decorator.pdb

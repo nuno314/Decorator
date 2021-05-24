@@ -13,15 +13,19 @@ int main()
 	cout << bread->getDiscription() << endl;
 	cout << "Cost: " << bread->getCost() << endl << endl;;
 	
-	Bread* meatBread = new Meat(*bread);
+	Bread* meatBread = new Meat(bread);
 	cout << meatBread->getDiscription() << endl;
 	cout << "Cost: " << meatBread->getCost() << endl << endl;
 
-	Bread* friedEggBread = new FriedEgg(*bread);
+	Bread* friedEggBread = new FriedEgg(bread);
 	cout << friedEggBread->getDiscription() << endl;
 	cout << "Cost: " << friedEggBread->getCost() << endl << endl;
 
-	Bread* sweetBread = new Sweet(*bread);
+	Bread* sweetBread = new Sweet(bread);
 	cout << sweetBread->getDiscription() << endl;
-	cout << "Cost: " << sweetBread->getCost() << endl;
+	cout << "Cost: " << sweetBread->getCost() << endl << endl;
+
+	Bread* fullBread = new Meat(new FriedEgg(new Sweet(bread)));
+	cout << fullBread->getDiscription() << endl;
+	cout << fullBread->getCost() << endl << endl;
 }

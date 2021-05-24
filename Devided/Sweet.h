@@ -4,7 +4,7 @@
 class Sweet : public BreadDecorator
 {
 public:
-	Sweet(Bread& decorator) : BreadDecorator(decorator) {}
+	Sweet(Bread* decorator) : BreadDecorator(decorator) {}
 	string getDiscription();
 	int getCost();
 };
